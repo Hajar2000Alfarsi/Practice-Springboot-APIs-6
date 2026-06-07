@@ -7,7 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class UpdateEmailDemoApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(UpdateEmailDemoApplication.class, args);
+
+		//task 30
+		UpdateEmail updateEmail = new UpdateEmail();
+		updateEmail.updatedEmail();
 	}
 
 }
