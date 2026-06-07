@@ -14,7 +14,7 @@ public class OrderController {
     }
 
     @PutMapping("/updateOrder/{orderId}")
-    public String updateOrder(@PathVariable int orderId,
+    public String UpdateOrder(@PathVariable int orderId,
                               @RequestParam String newAddress,
                               @RequestParam String newStatus){
         if (!orderMap.containsKey(orderId)) {

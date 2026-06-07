@@ -9,16 +9,16 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-public class controller {
+public class Controller {
 
     private Map<Integer, Product> productMap = new HashMap<>();
 
-    public controller() {
+    public Controller() {
         productMap.put(101, new Product(101, "Laptop", 10));
     }
 
     @PutMapping("/updateStock/{id}")
-    public String updateStock(@PathVariable int id, @RequestParam int newStock){
+    public String UpdateStock(@PathVariable int id, @RequestParam int newStock){
 
 
         if (!productMap.containsKey(id)) {
