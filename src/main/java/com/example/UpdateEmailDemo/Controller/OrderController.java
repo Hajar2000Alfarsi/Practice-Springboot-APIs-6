@@ -1,5 +1,6 @@
-package com.example.UpdateEmailDemo;
+package com.example.UpdateEmailDemo.Controller;
 
+import com.example.UpdateEmailDemo.Entities.Order;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;

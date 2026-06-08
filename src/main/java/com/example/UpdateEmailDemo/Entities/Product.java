@@ -1,7 +1,6 @@
-package com.example.UpdateEmailDemo;
+package com.example.UpdateEmailDemo.Entities;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
